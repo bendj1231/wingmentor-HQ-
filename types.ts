@@ -49,6 +49,8 @@ export interface BoardItem {
   color?: string;
   parentId?: string; // Kept for backward compatibility migration
   isCompleted?: boolean;
+  backgroundImageUrl?: string; // Support for images within nodes like idea-strip
+  isLocked?: boolean; // New property to fix node position
 }
 
 export interface BoardLink {
@@ -64,6 +66,7 @@ export type AppSection =
   | 'timeline' 
   | 'mindmap' 
   | 'planning' 
+  | 'document'
   | 'sales' 
   | 'marketing' 
   | 'simulation'

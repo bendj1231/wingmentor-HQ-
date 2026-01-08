@@ -11,6 +11,22 @@ export const INITIAL_TOOLS: Tool[] = [
     url: 'https://pileups.vercel.app/',
     iconUrl: 'https://pileups.vercel.app/favicon.ico',
     category: 'Productivity'
+  },
+  {
+    id: '2',
+    name: 'Timeout',
+    description: 'Focus timer and break management for productivity.',
+    url: 'https://timeoutapps.vercel.app/',
+    iconUrl: 'https://timeoutapps.vercel.app/favicon.ico',
+    category: 'Productivity'
+  },
+  {
+    id: '3',
+    name: 'MindMap Files',
+    description: 'Visual thinking and creative brainstorming workspace.',
+    url: 'https://mindmapfiles.vercel.app/',
+    iconUrl: 'https://mindmapfiles.vercel.app/favicon.ico',
+    category: 'Productivity'
   }
 ];
 
@@ -97,6 +113,7 @@ export const TRANSLATIONS: Record<AppLanguage, Record<string, string>> = {
     sales: "Sales & Products",
     marketing: "Marketing",
     planning: "Planning Room",
+    document: "Strategy Doc",
     simulation: "Simulator"
   },
   fr: {
@@ -170,6 +187,7 @@ export const TRANSLATIONS: Record<AppLanguage, Record<string, string>> = {
     sales: "Ventes et produits",
     marketing: "Marketing",
     planning: "Salle de planification",
+    document: "Document stratégique",
     simulation: "Simulateur"
   },
   de: {
@@ -243,6 +261,7 @@ export const TRANSLATIONS: Record<AppLanguage, Record<string, string>> = {
     sales: "Vertrieb & Produkte",
     marketing: "Marketing",
     planning: "Planungsraum",
+    document: "Strategiepapier",
     simulation: "Simulator"
   },
   ru: {
@@ -316,6 +335,7 @@ export const TRANSLATIONS: Record<AppLanguage, Record<string, string>> = {
     sales: "Продажи и продукты",
     marketing: "Маркетинг",
     planning: "Комната планирования",
+    document: "Стратегический документ",
     simulation: "Симулятор"
   },
   ar: {
@@ -389,6 +409,7 @@ export const TRANSLATIONS: Record<AppLanguage, Record<string, string>> = {
     sales: "المبيعات والمنتجات",
     marketing: "التسويق",
     planning: "غرفة التخطيط",
+    document: "وثيقة الاستراتيجية",
     simulation: "محاكي"
   },
   zh: {
@@ -462,6 +483,7 @@ export const TRANSLATIONS: Record<AppLanguage, Record<string, string>> = {
     sales: "销售与产品",
     marketing: "市场营销",
     planning: "规划室",
+    document: "战略文件",
     simulation: "模拟器"
   },
   ja: {
@@ -535,6 +557,7 @@ export const TRANSLATIONS: Record<AppLanguage, Record<string, string>> = {
     sales: "販売＆製品",
     marketing: "マーケティング",
     planning: "企画室",
+    document: "戦略文書",
     simulation: "シミュレータ"
   },
   ko: {
@@ -608,6 +631,8 @@ export const TRANSLATIONS: Record<AppLanguage, Record<string, string>> = {
     sales: "영업 및 제품",
     marketing: "마케팅",
     planning: "기획실",
+    document: "전략 문서",
     simulation: "시뮬레이터"
   }
 };
+    
